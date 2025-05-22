@@ -8,7 +8,68 @@
  --dark-green-color: #063610;
  --light-green-color: #074814;
  --night-dark-color: #041306;
+ --white-color: #ffffff;
+ --light-color: #119822; 
+ --olive-green-color: #a8c686;
 }
 html {
-  background-color: var(--night-dark-color) ;
+  background-color: var(--olive-green-color)
+}
+header nav {
+  background-color: var(--light-green-color);
+  display: flex;
+  justify-content: space-between;
+
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+}
+nav img {
+  margin-top: 1rem;
+}
+nav ul  {
+  display: block;
+  line-height: 3;
+  background-color: var(--dark-bg-color);
+  @media (min-width: 1200px){
+    display:flex;
+    background-color: var(--light-green-color) ;
+    font-size: 1.4em;
+    font-weight: bold;
+   }
+  
+}
+nav ul li {
+  list-style-type: none;
+  display: block;
+  
+}
+nav ul li a {
+  color: var(--white-color);
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 1rem;
+  white-space: nowrap;
+  z-index: 1;
+  display: none;
+  @media (min-width: 1200px){
+    display:flex;
+    background-color: var(--light-green-color)  }
+}
+h1, h2, h3 {
+  color:var(--white-color);
+}  
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+main {
+  text-align: center;
+  line-height: 4;
+}
+main table {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
