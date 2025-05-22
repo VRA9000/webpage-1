@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+ --dark-bg-color: #050607;
+ --dark-green-color: #063610;
+ --light-green-color: #074814;
+ --night-dark-color: #041306;
+}
+html {
+  background-color: var(--night-dark-color) ;
+}
